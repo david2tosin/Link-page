@@ -1,14 +1,23 @@
 import "./index.css";
+import profile from "./assets/profile__img.png";
+import button1 from "./assets/_Avatar share button1.png";
+import slack from "./assets/slack.png"
+import github from "./assets/icon.png"
+import zuri from "./assets/vector.png"
+import globe from "./assets/I4G.png"
+
 
 function App() {
   return (
-    <div>
-      <main>
+    <div className="app">
+      <main className="container">
         <section className="profile-container">
-          <div id="profile__img"></div>
+          <img id="profile__img" src={profile} alt="" />
           <p id="twitter">David Tosin</p>
-          <p id="slack">Oduwole Oluwatosin David</p>
-          <div className="share-button"></div>
+          <p id="slack" className="slack">
+            Oduwole Oluwatosin David
+          </p>
+          <img className="share-button" src={button1} alt="" />
         </section>
         <section className="links">
           <a href="https://twitter.com/David2Tosin">Twitter Link</a>
@@ -33,8 +42,19 @@ function App() {
         </section>
       </main>
       <footer>
-        <div className="footer-one"></div>
-        <div className="footer-two"></div>
+        <div className="footer-one">
+          <div className="footer-one-logo">
+            <img className="" src={slack} alt="" />
+            <img  src={github} alt="" />
+          </div>
+        </div>
+        <div className="footer-two">
+          <div className="footer-two-logo">
+            <img src={zuri} alt="" />
+            <p className="hng">HNG Internship 9 Frontend Task</p>
+            <img src={globe} alt="" />
+          </div>
+        </div>
       </footer>
     </div>
   );
