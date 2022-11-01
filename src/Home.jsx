@@ -1,10 +1,10 @@
 import "./index.css";
-import profile from "./assets/profile__img.png";
-import button1 from "./assets/_Avatar share button1.png";
-import slack from "./assets/slack.png";
+import profile from "./assets/profile_img.png";
+import button1 from "./assets/Avatarsharebutton1.png";
+import slack from "./assets/slacklogo.png";
 import github from "./assets/github.png";
-import zuri from "./assets/vector.png";
-import globe from "./assets/I4G.png";
+import zuri from "./assets/zuri.png";
+import globe from "./assets/IG.png";
 
 const Home = () => {
   return (
