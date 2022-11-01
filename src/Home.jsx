@@ -56,6 +56,7 @@ const Home = () => {
             <img src={github} alt="" />
           </div>
         </div>
+
         <div className="footer-two">
           <div className="footer-two-logo">
             <img className="zuri-logo" src={zuri} alt="zuri logo" />
