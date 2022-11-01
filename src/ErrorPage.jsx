@@ -8,12 +8,14 @@ const ErrorPage = () => {
       <p className="l3">
         Sorry, the page you are looking for doesn't exist or has been moved.
       </p>
-      <Link className="l4" to="/">
-        Take me home
-      </Link>
-      <Link className="l5" to="/">
-        Go back
-      </Link>
+      <div className="link-button">
+        <Link className="l4" to="/">
+          Take me home
+        </Link>
+        <Link className="l5" to="/">
+          Go back
+        </Link>
+      </div>
     </div>
   );
 };

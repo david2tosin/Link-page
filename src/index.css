@@ -16,6 +16,7 @@ body {
 }
 
 .profile-container {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -57,11 +58,7 @@ body {
   height: 40px;
   right: 0px;
   top: -20px;
-
-  /* Base/White */
-
   background: #ffffff;
-  /* Gray/300 */
 }
 
 .links {
@@ -71,8 +68,6 @@ body {
   padding: 0px;
   gap: 24px;
   width: 100%;
-  /* width: 343px;
-  height: 528px; */
 }
 
 a {
@@ -105,24 +100,16 @@ a:focus {
 }
 
 .footer-one {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   padding: 0px 16px;
-  gap: 32px;
-
-  /* gap: 64px; */
-
-  /* width: 375px;
-height: 72px; */
 }
 
 .footer-one-logo {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 0px;
+  gap: 24px;
 }
 
 .footer-two {
@@ -130,10 +117,15 @@ height: 72px; */
   padding: 32px 16px;
 }
 
-/* .zuri-logo{
-  width: 187px;
+.zuri-logo {
+  width: 139px;
+  height: 24px;
+}
 
-} */
+.globe {
+  width: 100px;
+  height: 24px;
+}
 
 .hng {
   font-family: "Inter";
@@ -224,6 +216,7 @@ height: 72px; */
   .footer-two-logo {
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
 
   .error {
@@ -236,5 +229,8 @@ height: 72px; */
 
   .l5 {
     width: 30%;
+  }
+  .link-button {
+    display: flex;
   }
 }
